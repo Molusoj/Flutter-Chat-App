@@ -19,6 +19,10 @@ InputDecoration textFieldInputDecoration(String hintText) {
           UnderlineInputBorder(borderSide: BorderSide(color: Colors.white)));
 }
 
-TextStyle simpleTextFieldStyle() {
+TextStyle simpleTextStyle() {
   return TextStyle(fontSize: 16, color: Colors.white);
+}
+
+TextStyle mediumTextStyle() {
+  return TextStyle(fontSize: 17, color: Colors.white);
 }
