@@ -1,4 +1,5 @@
 import 'package:chat_app/views/signin.dart';
+import 'package:chat_app/views/signup.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,6 +19,6 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.blue,
           visualDensity: VisualDensity.adaptivePlatformDensity,
         ),
-        home: SignIn());
+        home: SignUp());
   }
 }
